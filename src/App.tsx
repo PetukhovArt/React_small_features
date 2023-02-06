@@ -7,11 +7,11 @@ import { Footer } from './site/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Body />
-      <Footer />
-    </div>
+    <>
+      <Header titleHeader={'NEW BODY'} />
+      <Body titleBody={'NEW BODY'} />
+      <Footer titleFooter={'NEW BODY'} />
+    </>
   )
 }
 
