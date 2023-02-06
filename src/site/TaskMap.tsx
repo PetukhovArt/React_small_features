@@ -9,11 +9,10 @@ type CarType = {
     model: string
 }
 
-export const Task2Map = (props: MapType) => {
+export const TaskMap = (props: MapType) => {
 
     return (
         <table>
-
             {props.cars.map((el, index) => {
                 return (
                     <tbody key={index}>
